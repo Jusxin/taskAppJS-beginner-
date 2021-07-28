@@ -1,0 +1,67 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.heading {
+  text-align: center;
+  font-family: Poppins;
+  color: rgb(100, 53, 100);
+  font-size: 40px;
+}
+
+.box {
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 16px;
+}
+
+input {
+  width: 250px;
+  padding: 5px;
+  background-color: rgb(207, 203, 203);
+}
+
+body {
+  background-color: rgb(211, 209, 187);
+}
+
+#add {
+  font-family: Poppins;
+  padding: 4px;
+  background-color: rgb(167, 178, 182);
+  color: rgb(0, 0, 0);
+  outline: none;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+.taskList {
+  width: 25%;
+  margin: 30px;
+  padding: 15px;
+  text-align: center;
+  display: inline-block;
+  background-color: rgb(32, 30, 32);
+  color: rgb(176, 209, 198);
+}
+
+#list {
+  list-style-type: none;
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: rgb(14, 13, 13);
+  text-align: center;
+}
+
+#logo {
+  font-family: Poppins;
+  font-size: 40px;
+  color: rgb(100, 53, 100);
+}
