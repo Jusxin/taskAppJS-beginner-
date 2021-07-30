@@ -6,6 +6,7 @@ const boxInput = document.getElementById('textInput').value;
 
 const toEmptyBox = document.getElementById('textInput');
 
+const task = document.getElementById('list');
 
 
 
@@ -23,6 +24,15 @@ toEmptyBox.addEventListener('click', function emptyBox() {
 }
 
 )
+
+task.addEventListener('dblclick', function delTask(list) { 
+    list = document.getElementById('list');
+    let li = document.childNodes(list);
+    return task.removeChild(li);
+    
+    
+
+})
 
 
 /*addBtn.addEventListener('click', function text() {
