@@ -40,17 +40,25 @@ body {
 }
 
 .taskList {
-  width: 25%;
-  margin: 30px;
-  padding: 15px;
+  width: 20%;
+  height: 600px;
+  margin: 20px;
   text-align: center;
   display: inline-block;
   background-color: rgb(32, 30, 32);
   color: rgb(176, 209, 198);
 }
 
+.taskList p {
+  font-size: 18px;
+  text-align: left;
+  padding: 10px;
+  color: rgb(67, 214, 128);
+}
+
 #list {
   list-style-type: none;
+  margin-left: 20px;
 }
 
 nav {
