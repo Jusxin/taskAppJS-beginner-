@@ -25,7 +25,20 @@ input {
 }
 
 body {
-  background-color: rgb(211, 209, 187);
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.6),
+    rgba(108, 223, 207, 0.9)
+  );
+}
+
+#textInput {
+  font-family: Poppins;
+  font-weight: lighter;
+  font-size: 12px;
+  border: 2px solid;
+  border-radius: 5px;
+  background-color: linear-gradient(rgb(110, 194, 131), rgb(185, 179, 91));
 }
 
 #add {

@@ -2,7 +2,9 @@ const addBtn = document.getElementById('add')
 
 const addToList = document.getElementById('list')
 
-let boxInput = document.getElementById('textInput').value;
+const boxInput = document.getElementById('textInput').value;
+
+const toEmptyBox = document.getElementById('textInput');
 
 
 
@@ -15,9 +17,12 @@ addBtn.addEventListener('click', function addItem(boxInput) {
 }
 )
 
+toEmptyBox.addEventListener('click', function emptyBox() {
+    toEmptyBox.value = '';
 
+}
 
-
+)
 
 
 /*addBtn.addEventListener('click', function text() {
