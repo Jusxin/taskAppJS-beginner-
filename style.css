@@ -43,10 +43,17 @@ body {
   width: 20%;
   height: 600px;
   margin: 20px;
-  text-align: center;
   display: inline-block;
+  margin: auto;
+  margin-top: 20px;
   background-color: rgb(32, 30, 32);
   color: rgb(176, 209, 198);
+}
+
+@media only screen and (max-width: 768px) {
+  .taskList {
+    width: 100%;
+  }
 }
 
 .taskList p {
