@@ -61,7 +61,6 @@ body {
   width: 20%;
   height: 600px;
   margin: 20px;
-  display: inline-block;
   margin: auto;
   margin-top: 20px;
   background-color: rgb(32, 30, 32);
@@ -102,12 +101,37 @@ body {
 nav {
   padding-top: 10px;
   padding-bottom: 10px;
-  background-color: rgb(14, 13, 13);
+  background-color: rgba(14, 13, 13, 0.75);
   text-align: center;
+  width: 100%;
+  margin: auto;
+}
+
+nav ul {
+  list-style-type: none;
 }
 
 #logo {
   font-family: Poppins;
   font-size: 40px;
   color: rgb(100, 53, 100);
+}
+
+#task {
+  text-align: left;
+}
+
+#delBtn {
+  background-color: rgb(182, 74, 74);
+  outline: none;
+  border: none;
+  border-radius: 3px;
+  padding: 2px;
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  font-weight: light;
+  font-family: Poppins;
+  width: 65px;
+  height: 25px;
+  letter-spacing: 1.1px;
 }
