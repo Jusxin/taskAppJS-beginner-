@@ -15,7 +15,7 @@
   margin: 10px;
   text-align: center;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 18px;
 }
 
 input {
@@ -38,7 +38,8 @@ body {
   font-size: 12px;
   border: 2px solid;
   border-radius: 5px;
-  background-color: linear-gradient(rgb(110, 194, 131), rgb(185, 179, 91));
+  color: black;
+  background-color: rgba(255, 255, 255, 0.8);
 }
 
 #add {
@@ -47,7 +48,7 @@ body {
   background-color: rgb(100, 53, 100);
   color: rgb(241, 234, 234);
   outline: none;
-  border: none;
+  border: solid 1.1px rgb(100, 53, 100);
   font-size: 14px;
   border-radius: 4px;
 }
@@ -64,10 +65,23 @@ body {
   margin: auto;
   margin-top: 20px;
   background-color: rgb(32, 30, 32);
-  color: rgb(176, 209, 198);
+  color: rgb(67, 214, 128);
+  border-radius: 10px;
 }
 
 @media only screen and (max-width: 1620px) {
+  .taskList {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .taskList {
+    width: 50%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
   .taskList {
     width: 100%;
   }
@@ -76,8 +90,8 @@ body {
 .taskList p {
   font-size: 18px;
   text-align: left;
-  padding: 10px;
-  color: rgb(67, 214, 128);
+  padding: 15px;
+  color: rgba(67, 214, 128, 0.9);
 }
 
 #list {
