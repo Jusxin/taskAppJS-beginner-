@@ -60,18 +60,11 @@ body {
 .taskList {
   width: 20%;
   height: 600px;
-  margin: 20px;
   margin: auto;
   margin-top: 20px;
   background-color: rgb(32, 30, 32);
   color: rgb(67, 214, 128);
   border-radius: 10px;
-}
-
-li:focus-within {
-  text-decoration-line: line-through;
-  text-decoration-color: rgba(255, 255, 255, 0.6);
-  text-decoration-thickness: 3px;
 }
 
 @media only screen and (max-width: 1620px) {
@@ -82,7 +75,13 @@ li:focus-within {
 
 @media only screen and (max-width: 1366px) {
   .taskList {
-    width: 50%;
+    width: 35%;
+  }
+}
+
+@media only screen and (max-width: 769px) {
+  .taskList {
+    width: 45%;
   }
 }
 
@@ -97,12 +96,6 @@ li:focus-within {
   text-align: left;
   padding: 15px;
   color: rgba(67, 214, 128, 0.9);
-}
-
-#list {
-  list-style-type: none;
-  margin-left: 20px;
-  text-decoration-style: dashed;
 }
 
 nav {
@@ -126,6 +119,11 @@ nav ul {
 
 #task {
   text-align: left;
+  padding-right: 60px;
+  list-style: none;
+  display: inline-block;
+  width: 100px;
+  margin-bottom: 15px;
 }
 
 #delBtn {
@@ -141,4 +139,52 @@ nav ul {
   width: 65px;
   height: 25px;
   letter-spacing: 1.1px;
+}
+
+#delBtn:hover {
+  background-color: red;
+}
+
+@media only screen and (max-width: 795px) {
+  #task {
+    padding-right: 60px;
+
+    text-align: left;
+    display: inline-block;
+    width: 50px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  #task {
+    text-align: left;
+    padding-right: 130px;
+    padding-left: 0px;
+    list-style: none;
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 15px;
+  }
+}
+@media only screen and (max-width: 376px) {
+  #task {
+    text-align: left;
+    padding-right: 30px;
+
+    display: inline-block;
+    width: 100px;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 415px) {
+  #task {
+    text-align: left;
+    padding-right: 30px;
+
+    display: inline-block;
+    width: 130px;
+    margin-bottom: 15px;
+  }
 }
