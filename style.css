@@ -72,7 +72,6 @@ li:focus-within {
   text-decoration-line: line-through;
   text-decoration-color: rgba(255, 255, 255, 0.6);
   text-decoration-thickness: 3px;
-  text
 }
 
 @media only screen and (max-width: 1620px) {
