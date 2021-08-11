@@ -118,8 +118,7 @@ nav ul {
 }
 
 #task {
-  text-align: left;
-  padding-right: 60px;
+  text-align: center;
   list-style: none;
   display: inline-block;
   width: 100px;
@@ -147,9 +146,8 @@ nav ul {
 
 @media only screen and (max-width: 795px) {
   #task {
-    padding-right: 60px;
 
-    text-align: left;
+    text-align: center;
     display: inline-block;
     width: 50px;
     margin-bottom: 15px;
@@ -158,9 +156,7 @@ nav ul {
 
 @media only screen and (max-width: 1366px) {
   #task {
-    text-align: left;
-    padding-right: 130px;
-    padding-left: 0px;
+    text-align: center;
     list-style: none;
     display: inline-block;
     width: 100px;
@@ -169,8 +165,7 @@ nav ul {
 }
 @media only screen and (max-width: 376px) {
   #task {
-    text-align: left;
-    padding-right: 30px;
+    text-align: center;
 
     display: inline-block;
     width: 100px;
@@ -180,8 +175,7 @@ nav ul {
 
 @media only screen and (max-width: 415px) {
   #task {
-    text-align: left;
-    padding-right: 30px;
+    text-align: center;
 
     display: inline-block;
     width: 130px;

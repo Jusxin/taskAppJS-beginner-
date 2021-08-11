@@ -8,13 +8,13 @@ addingItem = function addItem(boxInput) {
     let li = document.createElement('li');
     li.id = 'task';
     li.textContent = boxInput;
-
-    let btn = document.createElement('button')
-    btn.id = 'delBtn'
-    btn.textContent = 'Delete'
-
+    /*  Button element to delete task
+        let btn = document.createElement('button')
+        btn.id = 'delBtn'
+        btn.textContent = 'Delete'
+    */
     addToList.appendChild(li);
-    addToList.appendChild(btn)
+    //addToList.appendChild(btn)
     toEmptyBox.value = '';
 }
 
@@ -34,8 +34,6 @@ task.addEventListener('click', function delTask(e) {
 
     }
 })
-
-
 
 task.addEventListener('dblclick', function delTask(e) {
     if (e.target && e.target.nodeName == 'LI') {
